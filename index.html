@@ -1,0 +1,224 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FinHub</title>
+    <meta name="description" content="Seu assistente financeiro pessoal">
+    <meta name="author" content="FinHub">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="FinHub">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#0D1512">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="apple-touch-icon" href="images/icon-192.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/id-preview-0594d63c--1f53fdb0-2ee8-4702-8936-bb6d2cb16900.lovable.app-1773428340372.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Lovable">
+    <meta name="twitter:image" content="images/id-preview-0594d63c--1f53fdb0-2ee8-4702-8936-bb6d2cb16900.lovable.app-1773428340372.png">
+    <meta property="og:title" content="FinHub">
+    <meta name="twitter:title" content="FinHub">
+    <meta property="og:description" content="Seu assistente financeiro pessoal">
+    <meta name="twitter:description" content="Seu assistente financeiro pessoal">
+    <script type="module" src="js/index-DWkj9xFu.js"></script>
+    <link rel="stylesheet" crossorigin="" href="css/index-D6Eeq3C3.css">
+  
+<style>
+	#lovable-badge {
+		--badge-bg: #1b1b1b;
+		--badge-text: #c5c1b9;
+		--badge-text-hover: #dcdad5;
+		--badge-radius: 6px;
+		--badge-padding: 8px;
+		--badge-gap: 6px;
+		--badge-shadow: 
+			0 0 0 1px rgba(0, 0, 0, 0.88),
+			0 1px 0 0 rgba(0, 0, 0, 0.04),
+			0 2px 2px -1px rgba(0, 0, 0, 0.08),
+			0 4px 4px -2px rgba(0, 0, 0, 0.08),
+			0 8px 8px -4px rgba(0, 0, 0, 0.08),
+			0 16px 16px -8px rgba(0, 0, 0, 0.08);
+		--badge-transition-duration: 0.2s;
+		--badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+		--focus-color: #575ECF;
+		--focus-offset: 2px;
+		--focus-width: 2px;
+		
+		position: fixed;
+		bottom: 12px;
+		right: 12px;
+		height: 24px;
+		display: flex;
+		align-items: center;
+		z-index: 1000000;
+		background-color: var(--badge-bg) !important;
+		color: var(--badge-text) !important;
+		border-radius: var(--badge-radius);
+		box-shadow: var(--badge-shadow) !important;
+		font-size: 12px;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-weight: 400 !important;
+		text-transform: none !important;
+		font-feature-settings: normal !important;
+		transform: translateZ(0);
+		will-change: transform, opacity;
+		transition: opacity var(--badge-transition-duration) var(--badge-transition-easing);
+	}
+
+	#lovable-badge.closing {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	#lovable-badge-cta {
+		display: flex;
+		align-items: baseline;
+		gap: var(--badge-gap);
+		box-sizing: border-box;
+		padding: 4px var(--badge-padding) 0;
+		height: 100%;
+		color: inherit;
+		text-decoration: none;
+		white-space: nowrap;
+		border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-cta:hover {
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--badge-text-hover);
+	}
+
+	#lovable-badge-cta:active {
+		transform: scale(0.98);
+	}
+
+	#lovable-badge-cta:focus {
+		outline: none;
+	}
+
+	#lovable-badge-cta:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+		z-index: 1;
+	}
+
+	#lovable-badge-text {
+		line-height: 1;
+	}
+
+	#lovable-badge-logo {
+		position: relative;
+		display: block;
+		width: 52px;
+		height: 12px;
+	}
+
+	#lovable-badge-logo svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	#lovable-badge-divider {
+		width: 1px;
+		height: 24px;
+		background-color: rgba(255, 255, 255, 0.04);
+		flex-shrink: 0;
+	}
+
+	#lovable-badge-close {
+		width: 24px;
+		height: 24px;
+		min-width: 24px;
+		min-height: 24px;
+		cursor: pointer;
+		background: none;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+		flex-shrink: 0;
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease;
+	}
+
+	#lovable-badge-close:hover {
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--badge-text-hover);
+	}
+
+	#lovable-badge-close:active {
+		transform: scale(0.98);
+	}
+
+	#lovable-badge-close:focus {
+		outline: none;
+	}
+
+	#lovable-badge-close:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+		z-index: 1;
+	}
+</style>
+</head>
+<body>
+<aside id="lovable-badge" aria-label="Edit with Lovable">
+	<a id="lovable-badge-cta" href="https://lovable.dev/projects/lovp_1ersz61vw796ptr7p96yew760g?utm_source=lovable-badge" target="_blank" rel="noopener noreferrer">
+		<span id="lovable-badge-text">Edit with</span>
+		<span id="lovable-badge-logo">
+			<svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" fill="none" viewBox="0 0 52 16">
+				<path fill="#FCFBF8" d="M5.995 15.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM14.72 15.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM23.445 15.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM32.17 15.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM40.895 15.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM49.62 15.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397Z"></path>
+				<path fill="#FCFBF8" d="M5.995 11.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM14.72 11.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM23.445 11.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM32.17 11.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM40.895 11.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM49.62 11.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397Z"></path>
+				<path fill="#FCFBF8" d="M5.995 7.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM14.72 7.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM23.445 7.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM32.17 7.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM40.895 7.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM49.62 7.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397Z"></path>
+				<path fill="#FCFBF8" d="M5.995 3.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM14.72 3.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM23.445 3.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM32.17 3.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM40.895 3.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397ZM49.62 3.172a1.39 1.39 0 0 1-1.397-1.397 1.39 1.39 0 0 1 1.397-1.397 1.39 1.39 0 0 1 1.397 1.397 1.39 1.39 0 0 1-1.397 1.397Z"></path>
+			</svg>
+		</span>
+	</a>
+	<span id="lovable-badge-divider" aria-hidden="true"></span>
+	<button id="lovable-badge-close" aria-label="Dismiss" title="Dismiss" type="button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true">
+			<path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z"></path>
+		</svg>
+	</button>
+</aside>
+<script>
+	(() => {
+		if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+			const badge = document.querySelector('#lovable-badge');
+			if (badge) {
+				badge.style.display = 'none';
+			}
+			return;
+		}
+
+		const closeButton = document.querySelector('#lovable-badge-close');
+		if (closeButton) {
+			closeButton.addEventListener('click', function(event) {
+				event.preventDefault();
+				event.stopPropagation();
+				const badge = document.querySelector('#lovable-badge');
+				if (badge) {
+					badge.classList.add('closing');
+					setTimeout(function() {
+						if (badge) {
+							badge.style.display = 'none';
+						}
+					}, 240);
+				}
+			});
+		}
+	})();
+</script>
+</body></html>
